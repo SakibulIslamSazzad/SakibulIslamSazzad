@@ -2,44 +2,44 @@
 
 <img src="./assets/terminal-header.svg" width="100%" alt="Terminal introduction for Sakibul Islam Sazzad" />
 
-[![Research](https://img.shields.io/badge/RESEARCH-META--OPTICS-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://sites.google.com/view/sakibulislamsazzad)
-[![Quantum](https://img.shields.io/badge/QUANTUM-COMPUTING-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://github.com/SakibulIslamSazzad)
-[![Photonics](https://img.shields.io/badge/PHOTONICS-NONLINEAR-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://sites.google.com/view/sakibulislamsazzad)
+[![Quantum Optics](https://img.shields.io/badge/QUANTUM-OPTICS-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://www.ece.ucf.edu/Q-Lab/)
+[![Cavity QED](https://img.shields.io/badge/CAVITY-QED-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://www.ece.ucf.edu/Q-Lab/)
+[![Quantum Sensing](https://img.shields.io/badge/QUANTUM-SENSING-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://orcid.org/0000-0001-7238-5681)
 
 </div>
 
 ```text
 ┌─ researcher.profile ───────────────────────────────────────────────┐
 │ name       Sakibul Islam Sazzad                                   │
-│ role       PhD researcher · Electrical & Computer Engineering     │
-│ location   University of New Mexico                               │
-│ signal     light × matter × computation                           │
+│ role       PhD Candidate · Electrical & Computer Engineering      │
+│ location   University of Central Florida                          │
+│ signal     light × matter × quantum measurement                   │
 └────────────────────────────────────────────────────────────────────┘
 ```
 
 ### `> research --focus`
 
-- **Meta-optics** — shaping wavefronts with compact, programmable structures
-- **Quantum computing & physics** — exploring computation at the limits of classical intuition
-- **Nonlinear optics** — studying light–matter interactions beyond the linear regime
-- **Scientific computing** — turning physical models into reproducible simulations
+- **Quantum optics** — studying light and matter in regimes where individual quanta matter
+- **Cavity quantum electrodynamics** — engineering controlled photon–emitter interactions
+- **Quantum sensing** — turning delicate quantum effects into precise measurements
+- **Scientific computing** — building reproducible models and simulations for photonic systems
 
 ### `> ls ./selected-work`
 
 | Project | Signal |
 | :-- | :-- |
+| [emParticles](https://github.com/SakibulIslamSazzad/emparticles_sazzad) | Computational experiments for electromagnetic systems |
 | [IBM Quantum Challenge 2020](https://github.com/SakibulIslamSazzad/IBMQuantumChallenge2020) | Quantum problem sets and notebooks |
 | [QHack — Xanadu](https://github.com/SakibulIslamSazzad/qhack_xanadu) | Quantum programming experiments |
 | [Qiskit Translations](https://github.com/SakibulIslamSazzad/qiskit-translations) | Community-accessible quantum documentation |
-| [Bangla in Overleaf](https://github.com/SakibulIslamSazzad/bangla_writing_in_overleaf) | Practical multilingual scientific writing |
 
 ### `> cat toolbox.conf`
 
 ```ini
 [physics]
-meta_optics = active
-quantum_physics = active
-nonlinear_optics = active
+quantum_optics = active
+cavity_qed = active
+quantum_sensing = active
 
 [compute]
 python = enabled
@@ -52,8 +52,8 @@ latex = enabled
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/WEBSITE-OPEN-03140c?style=flat-square&logo=googlechrome&logoColor=58ff96&labelColor=03140c&color=137a49)](https://sites.google.com/view/sakibulislamsazzad)
-[![X](https://img.shields.io/badge/@SAKIBUL_SAZZAD-FOLLOW-03140c?style=flat-square&logo=x&logoColor=58ff96&labelColor=03140c&color=137a49)](https://twitter.com/sakibul_sazzad)
+[![Q-Lab](https://img.shields.io/badge/UCF_Q--LAB-VISIT-03140c?style=flat-square&logo=googlechrome&logoColor=58ff96&labelColor=03140c&color=137a49)](https://www.ece.ucf.edu/Q-Lab/)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--7238--5681-03140c?style=flat-square&logo=orcid&logoColor=58ff96&labelColor=03140c&color=137a49)](https://orcid.org/0000-0001-7238-5681)
 [![GitHub](https://img.shields.io/badge/GITHUB-EXPLORE-03140c?style=flat-square&logo=github&logoColor=58ff96&labelColor=03140c&color=137a49)](https://github.com/SakibulIslamSazzad)
 
 <sub><code>signal received · curiosity remains online</code></sub>
