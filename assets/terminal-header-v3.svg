@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Terminal profile of Sakibul Islam Sazzad">
+  <defs>
+    <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#39ff88" opacity="0.18"/></pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="900" height="1" fill="#7dffad" opacity="0.035"/></pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="300" rx="18" fill="#03140c"/>
+  <rect x="1" y="1" width="898" height="298" rx="17" fill="none" stroke="#20d86f" stroke-width="2" opacity="0.75"/>
+  <rect width="900" height="300" rx="18" fill="url(#dots)"/>
+  <rect width="900" height="300" rx="18" fill="url(#scan)"/>
+  <rect x="1" y="1" width="898" height="42" rx="17" fill="#072619"/><rect x="1" y="26" width="898" height="17" fill="#072619"/>
+  <circle cx="25" cy="22" r="5" fill="#34f38b"/><circle cx="44" cy="22" r="5" fill="#1caf63" opacity="0.8"/><circle cx="63" cy="22" r="5" fill="#147b48" opacity="0.7"/>
+  <text x="450" y="28" fill="#73ffa7" opacity="0.8" font-family="Consolas, 'Courier New', monospace" font-size="14" text-anchor="middle">sazzad@photonics-lab:~</text>
+  <g font-family="Consolas, 'Courier New', monospace" fill="#58ff96">
+    <text x="38" y="82" font-size="17" opacity="0.9">$ whoami</text>
+    <text x="38" y="130" font-size="34" font-weight="700" letter-spacing="1.5" filter="url(#glow)">SAKIBUL ISLAM SAZZAD</text>
+    <text x="38" y="164" font-size="18" fill="#a3ffc2">PhD Candidate · ECE · University of Central Florida</text>
+    <text x="38" y="204" font-size="16">&gt; quantum systems  ·  spin-photonic qubits</text>
+    <text x="38" y="236" font-size="16">&gt; meta-optics  ·  nonlinear optics</text>
+    <text x="38" y="273" font-size="16">$ status: engineering light–matter interfaces</text>
+    <rect x="524" y="259" width="10" height="18" fill="#58ff96"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
