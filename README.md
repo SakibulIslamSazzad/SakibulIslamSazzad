@@ -1,10 +1,11 @@
 <div align="center">
 
-<img src="./assets/terminal-header.svg" width="100%" alt="Terminal introduction for Sakibul Islam Sazzad" />
+<img src="./assets/terminal-header-v3.svg" width="100%" alt="Terminal introduction for Sakibul Islam Sazzad at the University of Central Florida" />
 
-[![Quantum Optics](https://img.shields.io/badge/QUANTUM-OPTICS-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://www.ece.ucf.edu/Q-Lab/)
-[![Cavity QED](https://img.shields.io/badge/CAVITY-QED-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://www.ece.ucf.edu/Q-Lab/)
-[![Quantum Sensing](https://img.shields.io/badge/QUANTUM-SENSING-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://orcid.org/0000-0001-7238-5681)
+[![Quantum Systems](https://img.shields.io/badge/QUANTUM-SYSTEMS-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://www.ece.ucf.edu/Q-Lab/)
+[![Spin-Photonic Qubits](https://img.shields.io/badge/SPIN--PHOTONIC-QUBITS-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://www.ece.ucf.edu/Q-Lab/)
+[![Meta-Optics](https://img.shields.io/badge/META--OPTICS-RESEARCH-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://orcid.org/0000-0001-7238-5681)
+[![Nonlinear Optics](https://img.shields.io/badge/NONLINEAR-OPTICS-03140c?style=for-the-badge&labelColor=03140c&color=18b866)](https://orcid.org/0000-0001-7238-5681)
 
 </div>
 
@@ -13,16 +14,16 @@
 │ name       Sakibul Islam Sazzad                                   │
 │ role       PhD Candidate · Electrical & Computer Engineering      │
 │ location   University of Central Florida                          │
-│ signal     light × matter × quantum measurement                   │
+│ signal     light × matter × quantum information                   │
 └────────────────────────────────────────────────────────────────────┘
 ```
 
 ### `> research --focus`
 
-- **Quantum optics** — studying light and matter in regimes where individual quanta matter
-- **Cavity quantum electrodynamics** — engineering controlled photon–emitter interactions
-- **Quantum sensing** — turning delicate quantum effects into precise measurements
-- **Scientific computing** — building reproducible models and simulations for photonic systems
+1. **Quantum systems** — studying and engineering light–matter interactions in the quantum regime
+2. **Spin-photonic qubits** — connecting solid-state spin states with photonic interfaces
+3. **Meta-optics** — controlling optical fields with compact, structured platforms
+4. **Nonlinear optics** — exploring light–matter interactions beyond the linear response
 
 ### `> ls ./selected-work`
 
@@ -33,13 +34,14 @@
 | [QHack — Xanadu](https://github.com/SakibulIslamSazzad/qhack_xanadu) | Quantum programming experiments |
 | [Qiskit Translations](https://github.com/SakibulIslamSazzad/qiskit-translations) | Community-accessible quantum documentation |
 
-### `> cat toolbox.conf`
+### `> cat research.conf`
 
 ```ini
-[physics]
-quantum_optics = active
-cavity_qed = active
-quantum_sensing = active
+[priority]
+quantum_systems = primary
+spin_photonic_qubits = primary
+meta_optics = active
+nonlinear_optics = active
 
 [compute]
 python = enabled
